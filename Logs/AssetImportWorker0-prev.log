@@ -1,123 +1,126 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22000.194; Version 2009; 64bit' Language: 'en' Physical Memory: 16126 MB
+OS: 'Windows 10 Home; OS build 22621.232; Version 2009; 64bit' Language: 'en' Physical Memory: 16223 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+F:\unity install\2020.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Documents2/Unity/Github/Projects/XR5G_VR
+E:/zulk personal/Zulk/zulk unity learn/XR5G_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64990
-Successfully changed project path to: D:/Documents2/Unity/Github/Projects/XR5G_VR
-D:/Documents2/Unity/Github/Projects/XR5G_VR
+54865
+Successfully changed project path to: E:/zulk personal/Zulk/zulk unity learn/XR5G_VR
+E:/zulk personal/Zulk/zulk unity learn/XR5G_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Documents2/Unity/Github/Projects/XR5G_VR/Assets
+[Subsystems] Discovering subsystems at path F:/unity install/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/zulk personal/Zulk/zulk unity learn/XR5G_VR/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
     Vendor:   
-    VRAM:     6023 MB
-    Driver:   30.0.15.1169
+    VRAM:     5991 MB
+    Driver:   31.0.15.1659
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Mono path[0] = 'F:/unity install/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'F:/unity install/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/unity install/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001347 seconds.
+Register platform support module: F:/unity install/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/unity install/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000989 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.94 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.634 seconds
+- Completed reload, in  1.585 seconds
 Domain Reload Profiling:
-	ReloadAssembly (635ms)
-		BeginReloadAssembly (32ms)
+	ReloadAssembly (1586ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (274ms)
-			LoadAssemblies (31ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (116ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (143ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (23ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (58ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000917 seconds.
+Registered in 0.002514 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.632 seconds
+- Completed reload, in  0.893 seconds
 Domain Reload Profiling:
-	ReloadAssembly (633ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (894ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (497ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
+			SetupTypeCache (246ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (191ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
+System memory in use before: 65.1 MB.
+System memory in use after: 65.2 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1834.
-Total: 2.138500 ms (FindLiveObjects: 0.117100 ms CreateObjectMapping: 0.025000 ms MarkObjects: 1.932500 ms  DeleteObjects: 0.062700 ms)
+Total: 3.331500 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.045200 ms MarkObjects: 3.051400 ms  DeleteObjects: 0.078800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,55 +129,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(a894889fd9f06e948a9997f44722b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a894889fd9f06e948a9997f44722b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f30ac8734e84f79c455157c5c65359') in 0.003384 seconds 
-  Import took 0.005583 seconds .
+  path: Assets/Models/Ericsson hackathon/Zulks
+  artifactKey: Guid(0a9800b3307e2854c9b2879bfc13d7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/Zulks using Guid(0a9800b3307e2854c9b2879bfc13d7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b9b2765c04871e3809c35732c3195e') in 0.008126 seconds 
+  Import took 0.010594 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.519915 seconds.
-  path: Assets/Scenes/Maliq.unity
-  artifactKey: Guid(2379c45c51fe1574fa0360cf6b0274be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Maliq.unity using Guid(2379c45c51fe1574fa0360cf6b0274be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc5deb8398ab9f4f688baf7f4d047a8') in 0.009350 seconds 
-  Import took 0.011330 seconds .
+  Time since last request: 90.469994 seconds.
+  path: Assets/Models/Ericsson hackathon/Zulks/Lab Design.3ds
+  artifactKey: Guid(8cce6fed41bd28c49af6981febbdd074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/Zulks/Lab Design.3ds using Guid(8cce6fed41bd28c49af6981febbdd074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea081343729f8d2f52ec2b95c0161f0') in 0.764723 seconds 
+  Import took 0.767380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 115.136491 seconds.
-  path: Assets/Models
-  artifactKey: Guid(fc28c083b1445f94ca59be462c0cea75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(fc28c083b1445f94ca59be462c0cea75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40a2255452146205b1668de83812633') in 0.000867 seconds 
-  Import took 0.002996 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/Models/Ericsson hackathon/Zulks/Lab Design.obj
+  artifactKey: Guid(63d6b3ae9e9a2cb4597edff61a86d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/Zulks/Lab Design.obj using Guid(63d6b3ae9e9a2cb4597edff61a86d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac4d10cdc1e9029a339e309a3536012') in 1.875784 seconds 
+  Import took 1.881099 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.204565 seconds.
-  path: Assets/Models/Ericsson hackathon
-  artifactKey: Guid(d73500a8f59bdf84c962455dd33e5cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ericsson hackathon using Guid(d73500a8f59bdf84c962455dd33e5cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016d22abe3ead88572ab953b7bc1c4d8') in 0.001798 seconds 
-  Import took 0.004006 seconds .
+  Time since last request: 0.000319 seconds.
+  path: Assets/Models/Ericsson hackathon/Zulks/Lab Design.fbx
+  artifactKey: Guid(e53d5998668ecf146881537ba2803704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/Zulks/Lab Design.fbx using Guid(e53d5998668ecf146881537ba2803704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f5835b10c342a93ddf6d485f80469b') in 0.473276 seconds 
+  Import took 0.476368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.800601 seconds.
-  path: Assets/Models/Ericsson hackathon/digestive system/digestive system.fbx
-  artifactKey: Guid(8f60ce3af41501e4a8bc0f8ee132c886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ericsson hackathon/digestive system/digestive system.fbx using Guid(8f60ce3af41501e4a8bc0f8ee132c886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbe29ec378e69d93c578f0bfd211813') in 0.252551 seconds 
-  Import took 0.254888 seconds .
+  Time since last request: 644.524157 seconds.
+  path: Assets/Models/Ericsson hackathon/Zulks/Labconco+Protector+Pass-Through+Laboratory+Fume+Hood.skp
+  artifactKey: Guid(620aa4598b609af43a7c8c731e510541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/Zulks/Labconco+Protector+Pass-Through+Laboratory+Fume+Hood.skp using Guid(620aa4598b609af43a7c8c731e510541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a90eb06963386e988ea397ddee7cda4') in 0.086442 seconds 
+  Import took 0.089293 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Models/Ericsson hackathon/digestive system
-  artifactKey: Guid(6d83846410ec3c1429492e1d1ab4c354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ericsson hackathon/digestive system using Guid(6d83846410ec3c1429492e1d1ab4c354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5606a41dc6ba98684b6da99693995225') in 0.000842 seconds 
-  Import took 0.002533 seconds .
+  Time since last request: 458.277548 seconds.
+  path: Assets/Models/Ericsson hackathon/Zulks/F8448-2GH21.skp
+  artifactKey: Guid(4f7a10b5a2c8bf84a926d45e968cb2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/Zulks/F8448-2GH21.skp using Guid(4f7a10b5a2c8bf84a926d45e968cb2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e57805b02d0ee0bd0831bb583f6c77') in 0.302391 seconds 
+  Import took 0.304930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 624.834329 seconds.
+  path: Assets/Models/Ericsson hackathon/Zulks/F materials
+  artifactKey: Guid(7e1e1608d21ad5f48a328d9783843f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/Zulks/F materials using Guid(7e1e1608d21ad5f48a328d9783843f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcf9790082f4aa1bd8c45b5ee528476') in 0.005326 seconds 
+  Import took 0.007911 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
