@@ -1,0 +1,268 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.194; Version 2009; 64bit' Language: 'en' Physical Memory: 16126 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Documents2/Unity/Github/Projects/XR5G_VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61396
+Successfully changed project path to: D:/Documents2/Unity/Github/Projects/XR5G_VR
+D:/Documents2/Unity/Github/Projects/XR5G_VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 19.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents2/Unity/Github/Projects/XR5G_VR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000934 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (619ms)
+		BeginReloadAssembly (32ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (269ms)
+			LoadAssemblies (31ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (115ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (20ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (641ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (508ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 2.062900 ms (FindLiveObjects: 0.121600 ms CreateObjectMapping: 0.024300 ms MarkObjects: 1.858500 ms  DeleteObjects: 0.056800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/Ericsson hackathon/the human heart/the heart.fbx
+  artifactKey: Guid(84f046e2563ffb945bc91889d86f151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/the human heart/the heart.fbx using Guid(84f046e2563ffb945bc91889d86f151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550ab3786bd7242efc9c19e6a3955536') in 0.303164 seconds 
+  Import took 0.305276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/Ericsson hackathon/the human heart
+  artifactKey: Guid(b40f1396939cc4f4bac71d306a604af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/the human heart using Guid(b40f1396939cc4f4bac71d306a604af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad3983f41d74efc28ca17aa23e182d3') in 0.000950 seconds 
+  Import took 0.002603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.256164 seconds.
+  path: Assets/Models/Ericsson hackathon/the skeleton/skeleton.fbx
+  artifactKey: Guid(20e6bc6edd3c0074d8f8b6b769b20b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/the skeleton/skeleton.fbx using Guid(20e6bc6edd3c0074d8f8b6b769b20b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d0e9f4302151d6a6fbced43547f276') in 0.047338 seconds 
+  Import took 0.049675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/Ericsson hackathon/the skeleton
+  artifactKey: Guid(040bbf45f881964429191686533ac9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ericsson hackathon/the skeleton using Guid(040bbf45f881964429191686533ac9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9acd30c61042af950faab6ac02bc37f') in 0.000726 seconds 
+  Import took 0.002468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2267.754440 seconds.
+  path: Assets/Models/morten-the-hunter
+  artifactKey: Guid(a46bf44f420043c42a247d0572238b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter using Guid(a46bf44f420043c42a247d0572238b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a72406e227066d7e951815035cd8f30') in 0.001927 seconds 
+  Import took 0.005699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.812570 seconds.
+  path: Assets/Models/morten-the-hunter/textures
+  artifactKey: Guid(73026447775fe0b4ca28a0586e28a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures using Guid(73026447775fe0b4ca28a0586e28a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e9fffbcb3638befe96e05c6d4fe924') in 0.002411 seconds 
+  Import took 0.006673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.891755 seconds.
+  path: Assets/Models/morten-the-hunter/source/SM_Morten.fbx
+  artifactKey: Guid(dbb043ca063148041bf32615ee539a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/source/SM_Morten.fbx using Guid(dbb043ca063148041bf32615ee539a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9aa8dd0fcb754dcd8c9f1bcf97008d') in 0.066863 seconds 
+  Import took 0.071013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Models/morten-the-hunter/source
+  artifactKey: Guid(40484ed8091859640bce1ac668952b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/source using Guid(40484ed8091859640bce1ac668952b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ec92dd26ebcea21c54ae5145c15e6f') in 0.001768 seconds 
+  Import took 0.004275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.440672 seconds.
+  path: Assets/Models/morten-the-hunter/source/SM_Morten.fbx
+  artifactKey: Guid(dbb043ca063148041bf32615ee539a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/source/SM_Morten.fbx using Guid(dbb043ca063148041bf32615ee539a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec789581f2c39ad10caafd146308d578') in 0.035243 seconds 
+  Import took 0.038842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.325840 seconds.
+  path: Assets/Models/morten-the-hunter/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(b627b2b36101b5d40b16fd4050e4ef9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/internal_ground_ao_texture.jpeg using Guid(b627b2b36101b5d40b16fd4050e4ef9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbbf17e29014ee256398dd629e36f8e') in 0.111273 seconds 
+  Import took 0.114524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Normal.png
+  artifactKey: Guid(ec5a0caebfd2a6147b89164b9e85f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Normal.png using Guid(ec5a0caebfd2a6147b89164b9e85f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc30b8f0d14741f73bbec06d8f9daade') in 0.018961 seconds 
+  Import took 0.022541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Roughness.png
+  artifactKey: Guid(b8210c9b66a2b124bb46bea131ea9b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Roughness.png using Guid(b8210c9b66a2b124bb46bea131ea9b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968987685d8f9783498772ce7619f959') in 0.018351 seconds 
+  Import took 0.021981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_BaseColor.png
+  artifactKey: Guid(82ff8c91c56033e4d93b23b12e409d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_BaseColor.png using Guid(82ff8c91c56033e4d93b23b12e409d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09374440ee0f80fbaec92a82615d9e43') in 0.015559 seconds 
+  Import took 0.019487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Models/morten-the-hunter/textures/M_Body.mat
+  artifactKey: Guid(e693736d89650ad4ebfd939e029718d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/M_Body.mat using Guid(e693736d89650ad4ebfd939e029718d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaee11ffa612b2f1e1febf7c9421d49c') in 0.014992 seconds 
+  Import took 0.017030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Metallic.png
+  artifactKey: Guid(2bc229a3eb97ccc4aa619e1acc15841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Metallic.png using Guid(2bc229a3eb97ccc4aa619e1acc15841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafd01dcaef7e34432a1cbd1e22e3057') in 0.013616 seconds 
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Models/morten-the-hunter/textures/T_Body_AO.png
+  artifactKey: Guid(3c51876857eb8c1449bd65a042733ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/T_Body_AO.png using Guid(3c51876857eb8c1449bd65a042733ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629aa202102718d8774ca5baae019178') in 0.015314 seconds 
+  Import took 0.018457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.723097 seconds.
+  path: Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Normal.png
+  artifactKey: Guid(ec5a0caebfd2a6147b89164b9e85f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/morten-the-hunter/textures/SM_Morten_M_Body_Normal.png using Guid(ec5a0caebfd2a6147b89164b9e85f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2314d0b6aa86c39396ad4b5619cc62') in 0.034835 seconds 
+  Import took 0.038077 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
