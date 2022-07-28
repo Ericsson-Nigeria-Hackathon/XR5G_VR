@@ -1,0 +1,20 @@
+.vs
+/Library
+/ProjectSettings
+/Temp
+/*.csproj
+/*.sln
+UnityVS
+/Assets/UnityVS.meta
+.DS_Store
+<<<<<<< HEAD
+/build
+=======
+/build
+/webglBuild
+/obj
+/UserSettings
+*.log
+*.log
+>>>>>>> duplicate
+*.log
