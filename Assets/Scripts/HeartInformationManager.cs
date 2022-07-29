@@ -10,19 +10,19 @@ public class HeartInformationManager : MonoBehaviour
     public TMP_Text buttonText;
 
     [TextArea]
-    public string mitral;
+    public string mitral, mitralBad;
     public string mitralButtonTxt;
     [TextArea]
-    public string tricuspid;
+    public string tricuspid, tricuspidBad;
     public string tricuspidButtonTxt;
     [TextArea]
-    public string erb;
+    public string erb, erbBad;
     public string erbButtonTxt;
     [TextArea]
-    public string pulmonic;
+    public string pulmonic, pulmonicBad;
     public string pulmonicButtonTxt;
     [TextArea]
-    public string aortic;
+    public string aortic, aorticBad;
     public string aorticButtonTxt;
 
     public void MitralInformation()

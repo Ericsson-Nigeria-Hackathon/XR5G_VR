@@ -2,18 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    public Button bodyPartsButton, heartButton, lungsButton;
-    public GameObject rollOut, heartContent, lungsContent;
+    public Button openRollOutButton, heartButton, lungsButton, rollOutButton;
+    public GameObject rollOut, goodHeartContent, badHeartContent, lungsContent;
     public RectTransform arrow;
-    // Start is called before the first frame update
+    public string lungsRolloutTxt, heartRolloutTxt;
+    public TMP_Text openRolloutText, rollOutText, displayText;
+    public HeartInformationManager heartInformationManager;
+
     void Start()
     {
-        bodyPartsButton.onClick.AddListener(() => OpenRollOut());
+        rollOutButton.onClick.AddListener(() => RollOutContent());
+        openRollOutButton.onClick.AddListener(() => OpenRollOut());
         heartButton.onClick.AddListener(() => HeartContent());
         lungsButton.onClick.AddListener(() => LungsContent());
+
+        openRolloutText.text = "Heart";
+        rollOutText.text = heartRolloutTxt;
     }
 
     private void OpenRollOut()
@@ -24,13 +32,61 @@ public class UIManager : MonoBehaviour
 
     private void HeartContent()
     {
-        heartContent.SetActive(true);
+        openRolloutText.text = "Heart";
+        rollOutText.text = heartRolloutTxt;
+        goodHeartContent.SetActive(true);
         lungsContent.SetActive(false);
+        ResetText();
     }
 
     private void LungsContent()
     {
+        openRolloutText.text = "Lungs";
+        rollOutText.text = lungsRolloutTxt;
         lungsContent.SetActive(true);
-        heartContent.SetActive(false);
+        goodHeartContent.SetActive(false);
+        badHeartContent.SetActive(false);
+        ResetText();
+    }
+
+    private void RollOutContent()
+    {
+        //if (openRolloutText.text == "Heart")
+        //{
+            openRolloutText.text = heartRolloutTxt;
+            rollOutText.text = "Heart";
+            BadSoundContent();
+            goodHeartContent.SetActive(false);
+            badHeartContent.SetActive(true);
+        displayText.text = " ";
+        //}
+        //else if (openRolloutText.text == heartRolloutTxt)
+        //{
+        //    openRolloutText.text = heartRolloutTxt;
+        //    goodHeartContent.SetActive(false);
+        //    badHeartContent.SetActive(true);
+        //}
+
+        //if (openRolloutText.text == "Lungs")
+        //{
+        //    openRolloutText.text = lungsRolloutTxt;
+        //}
+        //else
+        //    return;
+    }
+
+    private void BadSoundContent()
+    {
+        heartInformationManager.mitral = heartInformationManager.mitralBad;
+        heartInformationManager.tricuspid = heartInformationManager.tricuspidBad;
+        heartInformationManager.erb = heartInformationManager.erbBad;
+        heartInformationManager.pulmonic = heartInformationManager.pulmonicBad;
+        heartInformationManager.aortic = heartInformationManager.aorticBad;
+    }
+
+    public void ResetText()
+    {
+        heartInformationManager.displayText.text = " ";
+        //heartInformationManager.buttonText.text = "Heart";
     }
 }
